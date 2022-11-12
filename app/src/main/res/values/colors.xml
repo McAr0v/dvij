@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Мои цвета (My Colors) -->
+
+    <!-- Primary Colors -->
+
+    <color name="primary">#FC7C91</color>
+
+    <color name="primary_100">#32191D</color>
+    <color name="primary_90">#542930</color>
+    <color name="primary_80">#7E3E48</color>
+    <color name="primary_70">#A85361</color>
+    <color name="primary_60">#D26779</color>
+    <color name="primary_40">#FC92A3</color>
+    <color name="primary_30">#FDA8B6</color>
+    <color name="primary_20">#FDBDC8</color>
+    <color name="primary_10">#FED3DA</color>
+    <color name="primary_0">#FEE5E9</color>
+
+    <!-- Grey Colors -->
+
+    <color name="grey_100">#171717</color>
+    <color name="grey_95">#232323</color>
+    <color name="grey_90">#2F2F2F</color>
+    <color name="grey_80">#535353</color>
+    <color name="grey_70">#6F6F6F</color>
+    <color name="grey_60">#818181</color>
+    <color name="grey_50">#A7A7A7</color>
+    <color name="grey_40">#C7C7C7</color>
+    <color name="grey_30">#E3E3E3</color>
+    <color name="grey_20">#EFEFEF</color>
+    <color name="grey_10">#F6F6F6</color>
+    <color name="grey_0">#FFFFFF</color>
+
+    <!-- Secondary Colors -->
+
+    <color name="attention">#FF6577</color>
+    <color name="success">#24BA96</color>
+    <color name="warning">#F0A900</color>
+
+    <!-- Цвета по умолчанию (Default Colors) -->
+
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,4 +47,5 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
 </resources>

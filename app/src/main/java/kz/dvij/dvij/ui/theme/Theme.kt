@@ -5,6 +5,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
+import kz.dvij.dvij.dvijTheme.PrimaryColor
 
 private val DarkColorPalette = darkColors(
     primary = Purple200,
@@ -13,7 +14,7 @@ private val DarkColorPalette = darkColors(
 )
 
 private val LightColorPalette = lightColors(
-    primary = Purple500,
+    primary = PrimaryColor,
     primaryVariant = Purple700,
     secondary = Teal200
 
@@ -30,7 +31,8 @@ private val LightColorPalette = lightColors(
 @Composable
 fun DvijTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {
     val colors = if (darkTheme) {
-        DarkColorPalette
+        // DarkColorPalette
+        LightColorPalette
     } else {
         LightColorPalette
     }
