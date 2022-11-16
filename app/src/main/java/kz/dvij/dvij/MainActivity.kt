@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
             DvijTheme {
                 Column (
                     modifier = Modifier
-                        .background(GradientPrimary)
+                        .background(Grey100)
                         .fillMaxSize(),
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center
@@ -52,7 +52,9 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun NewText (inputText: String) {
-    Text(text = inputText)
+    Text(
+        text = inputText,
+        color = Grey00)
 }
 
 
