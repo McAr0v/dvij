@@ -1,5 +1,7 @@
 package kz.dvij.dvij.dvijTheme
 
+import android.graphics.drawable.GradientDrawable
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 
 // Primary Colors - цвета из дизайн-файла Figma
@@ -31,6 +33,15 @@ val Grey30 = Color(0xFFE3E3E3)
 val Grey20 = Color(0xFFEFEFEF)
 val Grey10 = Color(0xFFF6F6F6)
 val Grey00 = Color(0xFFFFFFFF)
+
+// Gradient
+
+val GradientPrimary = Brush.verticalGradient(
+    colors = listOf(
+        PrimaryColor,
+        Primary100
+    )
+)
 
 // Secondary Colors - цвета из дизайн-файла Figma
 
